@@ -11,12 +11,13 @@ body {
 }
 
 header {
-    height: 900px;
+
     background: url('../img/Rectangle\ 1779.png') center (center/cover) no-repeat;
     display: block;
 }
 
 .nav {
+    width: 100%;
     background: linear-gradient(270.01deg, #04040C -9.42%, #01050D -9.42%, #01040A 21.93%, #01050D 76.96%, #191E25 80.51%, #1C2C40 85.83%, #232F3F 94.71%, #141B2C 104.17%);
     display: flex;
     justify-content: space-between;
@@ -54,7 +55,7 @@ header {
             margin-top: 17px;
             &:hover {
                 color: #FF6726;
-                transition: 1s;
+                transition: 0.3s;
             }
         }
         &_login {
@@ -72,7 +73,7 @@ header {
                 color: #D4D4D4;
                 &:hover {
                     color: #FF6726;
-                    transition: 1s;
+                    transition: 0.3s;
                 }
         }
         &_signup {
@@ -92,7 +93,7 @@ header {
         &:hover {
             background-color: #5ABA4A;
             color: #FFFFFF;
-            transition: 1s;
+            transition: 0.3s;
         }
         }}
 
@@ -326,7 +327,7 @@ header {
 
 .header_card:hover {
     background: #FF6726;
-    transition: 2s;
+    transition: 0.3s;
 }
 
 .card_join:hover {
@@ -429,7 +430,6 @@ header {
 
 .abouts {
     &_images {
-        
         padding: 30px 30px;
         margin-left: 400px;
         margin-top: -350px;
@@ -438,10 +438,141 @@ header {
         background: #030712;
         border-radius: 2.04179px;
     }
-        &_img { 
-            margin-top: -100px;
+        &_img {
+            margin-top: -130px; 
+            padding: 50px;
+            gap: 30px;
         }
         &_imagespan {
             margin-top: px;
         }
 }
+
+
+.plan {
+    &_header {
+        margin-top: 102px;
+        text-align: center;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32.6687px;
+        text-transform: capitalize;
+        color: white;
+    }
+    &_subheader {
+        margin-top: 13px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.8896px;
+        text-align: center;
+        color: #E7E0E0;
+    }
+    &_cards {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        gap: 24px;
+        padding-right: 46px;
+    }
+    &_card {
+        width: 272.24px;
+        height: 390.66px;
+        background: #030712;
+        border: none;
+        padding: 40px 46px;
+        &:hover {
+            background: #FF6726;
+            transition: 0.8s;
+        }
+    }
+}
+
+.card {
+    &_circleicon {
+    }
+    &_name {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16.3343px;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    &_cost {
+        margin-top: 32px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28.5851px;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    &_main {
+        display: flex;
+        gap: 6px;
+        margin-top: 26px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.2507px;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    &_btn {
+        margin-top: 54px;
+        width: 176.96px;
+        height: 35.39px;
+        border: 0.680597px solid #52A745;
+        border-radius: 2.04179px;
+        cursor: pointer;
+        background: rgba(28,28,28,0);
+        &:hover {
+            background: #FFFFFF;
+            transition: 0.3s;
+        }
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12.2507px;
+            line-height: 18px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #5ABA4A;
+    }
+}
+
+.jeason {
+    &_pretext {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 102px;
+        padding: 0 57px 0 47px;
+    }
+}
+
+.pretext {
+        &_header {
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32.6687px;
+            line-height: 45px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+        &_text {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10.8896px;
+            line-height: 18px;
+            color: #E7E0E0;
+        }
+}
+
+
