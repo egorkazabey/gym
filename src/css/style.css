@@ -11,7 +11,7 @@ body {
 
 header {
   background: url("../img/Rectangle 1779.png") center center/cover no-repeat;
-  display: block;
+  width: 100%;
 }
 
 .nav {
@@ -245,6 +245,7 @@ header {
   justify-content: center;
   gap: 43px;
 }
+
 .header_build {
   display: flex;
   justify-content: center;
@@ -494,9 +495,9 @@ header {
 
 .jeason_pretext {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 102px;
-  padding: 0 57px 0 47px;
+  gap: 400px;
 }
 
 .pretext_header {
@@ -515,4 +516,194 @@ header {
   font-size: 10.8896px;
   line-height: 18px;
   color: #E7E0E0;
+}
+
+.man {
+  margin-top: 42px;
+  background: #030712;
+  height: 465px;
+}
+.man_main {
+  display: flex;
+  justify-content: center;
+}
+.man_img {
+  padding: 0 79px 0 107px;
+  display: flex;
+}
+.man_decoration {
+  text-align: center;
+  justify-content: flex-end;
+}
+.man_body {
+  margin-left: 107px;
+}
+.man_name {
+  margin-top: 79px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.3343px;
+  line-height: 19px;
+  /* or 117% */
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.man_subname {
+  margin-top: 3px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.8896px;
+  line-height: 19px;
+  /* or 175% */
+  text-transform: capitalize;
+  color: #D4D4D4;
+}
+.man_stars {
+  margin-top: 13px;
+}
+.man_information {
+  margin-top: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.8896px;
+  line-height: 19px;
+  /* or 175% */
+  color: #D4D4D4;
+}
+.man_btns {
+  display: flex;
+  margin-left: -25px;
+  cursor: pointer;
+}
+
+.email {
+  display: block;
+  border-radius: 2.72239px;
+  background: #030712;
+  max-width: 1300.16px;
+  min-height: 262.03px;
+  margin: 132px auto;
+}
+.email_header {
+  display: block;
+  padding-top: 67px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32.6687px;
+  line-height: 20px;
+  /* or 63% */
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.email_subheader {
+  padding-top: 13px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.8896px;
+  line-height: 18px;
+  /* or 163% */
+  text-align: center;
+  color: #D4D4D4;
+}
+.email_inputbtn {
+  gap: 7px;
+  margin-top: 78px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.email_input {
+  width: 266.11px;
+  height: 36.75px;
+  border: 0.680597px solid #9DAD9A;
+  border-radius: 2.04179px;
+  background: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.8896px;
+  line-height: 20px;
+  /* identical to box height, or 187% */
+  text-transform: capitalize;
+  color: #878585;
+}
+.email_subscribe {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.6119px;
+  line-height: 20px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  text-transform: capitalize;
+  color: #EDEEF1;
+  border: 0.680597px solid #5ABA4A;
+  border-radius: 2.04179px;
+  background: rgba(28, 28, 28, 0);
+}
+.email_subscribe:hover {
+  background: #5ABA4A;
+  transition: 0.8s;
+}
+
+.end {
+  display: flex;
+  justify-content: space-around;
+}
+.end_name {
+  margin-top: 40px;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.3343px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.end_name span {
+  color: #F97239;
+}
+.end_icons {
+  cursor: pointer;
+}
+.end_subtext {
+  margin-bottom: 20px;
+  margin-top: 13px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.8896px;
+  line-height: 16px;
+  /* or 150% */
+  color: #E7E0E0;
+}
+.end_blockheader {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.3343px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.end_rowtext {
+  margin-top: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.8896px;
+  line-height: 16px;
+  /* identical to box height, or 150% */
+  cursor: pointer;
+  text-transform: capitalize;
+  color: #E7E0E0;
+}
+.end_rowtext:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
